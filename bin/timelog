@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+case ARGV[0]
+when nil
+  puts "Not currently logging time"
+when "start"
+  puts "Time logging started at 13:05"
+else
+ abort "Command not understood"
+end
+
